@@ -9,3 +9,5 @@ Sweshik Rao Nemarukommula [Team Leader] - S565485: Responsible for front-end des
 Sneha Kancharla - S66602: Responsible for Back-end design including Backend infrastructure, Server side logic, Collaborate with front-end developer for smooth communication.
 
 Kaushik Ram Koteshwar Venna S564229: Responsible for Data Base management and design and Implementation of CRUD Operations. 
+
+
