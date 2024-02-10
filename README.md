@@ -37,6 +37,7 @@ Team members:
 
 1.	UI prototypes related to app snapshots
    
+   
                                                                                            
                                                                                                                                                                                 
                                                                                                                                                                                
@@ -47,59 +48,68 @@ UI Prototypes description:
 1)	Login Page:
 •	In Login Page we have three text fields for Username, Mobile number and Password.
 •	We have a Login button and a Sign up button.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/095241de-ef46-499a-9df7-9558a8bb9299
  
 
-2)	Login Profile:
+3)	Login Profile:
 •	In this page we have user profile picture and the number of rides given and number of rides taken.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/095241de-ef46-499a-9df7-9558a8bb9299
  
 
 
 
 
-3)	Sign Up Page:
+5)	Sign Up Page:
 •	In this page we have four textfields they are Username, Mobile Number,One Time Password and Create  a password
 •	We have a create button to create a profile.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/7bc03ad6-b60f-4940-91af-fd6f3390688c
  
 
 
-4)	Home Page:
+7)	Home Page:
 •	We have a two select categories to give or book a ride.
 •	we have two drop downs to select the initial point and the destination point.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/e1848b50-495d-45b1-a897-4794d12f1bfd
  
 
 
-5)	Ride Publish:
+9)	Ride Publish:
 •	In this page we have two dropdowns which are select time and set arrival time.
 •	We have two textfields for entering the amount and entering the phone number.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/fdf94a18-90f9-433f-8240-6d597d80b1dc
  
 
 
-6)	Confirmation page:
+11)	Confirmation page:
 •	We have a animation on this page for ride confirmation.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/ed610c33-5ac1-4547-b181-8a4b6af1e0ef
  
 
 
-7)	Book a ride page:
+13)	Book a ride page:
 •	In this page we have two dropdowns which are select number of people and select departure time.
 •	We have a textfield to enter if any changes in the Mobile number.
 •	We have a button to find the result for the search.
- 
+ https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/bb63ec6a-a70a-49c2-bdcf-16ce4703d125
 
 
-8)	Select a ride page:
+14)	Select a ride page:
 •	We have some buttons in this page wgich are used to book a ride by clicking and a button to cancel the ride which was booked.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/89647a13-67b5-4fcc-8eef-b2e08f81f7ec
 
  
 
 
-9)	Safety Navigation Page:
+16)	Safety Navigation Page:
 •	We have a text field to enter a mobile number of a friend who can track your ride.
 •	We have a button to confirm the mobile number.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/d009fa13-d63d-4384-8870-985f0f852560
  
 
 
-10)	GPS Tracking Page:
+18)	GPS Tracking Page:
 •	In this page the ride of the person will be tracked which was shown to the person on the car and the safety navigation saved contact person.
+https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836292/107e0e07-79ad-4b9f-a5c9-1fbe9383aaba
  
 
                  
