@@ -138,7 +138,8 @@ first page and login page
 
 
 Sprint 04
-Added navigation controller and added one more screen and created ui part
+Added navigation controller and added one more screen and created ui part added one more screen and created UI part also added one more page using segue and creating UI part in it.
+
 
 
 
