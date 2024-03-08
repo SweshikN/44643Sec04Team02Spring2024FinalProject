@@ -132,5 +132,13 @@ https://github.com/SweshikN/44643Sec04Team02Spring2024FinalProject/assets/142836
 •	Then the page will be navigated to safety navigation page where we will give a security contact who can navigate our ride in real time.
 •	Finaly after the ride started the GPS Tracking page will show the live tracking of the ride.
 
+Sprint 03
+Created 2 screens by adding 2 view controllers 
+first page and login page
+
+
+Sprint 04
+Added navigation controller and added one more screen and created ui part
+
 
 
