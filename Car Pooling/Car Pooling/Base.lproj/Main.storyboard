@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ztb-DZ-XEt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ztb-DZ-XEt">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -229,7 +229,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Create" cornerStyle="capsule"/>
                                                 <connections>
-                                                    <segue destination="qeC-uH-sxt" kind="showDetail" id="huU-ha-CW2"/>
+                                                    <segue destination="qeC-uH-sxt" kind="showDetail" id="p17-MS-5gX"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -256,10 +256,10 @@
             </objects>
             <point key="canvasLocation" x="-440.45801526717554" y="-673.23943661971839"/>
         </scene>
-        <!--View Controller-->
+        <!--ride page-->
         <scene sceneID="8JJ-WO-Xym">
             <objects>
-                <viewController id="qeC-uH-sxt" sceneMemberID="viewController">
+                <viewController title="ride page" id="qeC-uH-sxt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pfW-dc-4NE">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -291,48 +291,47 @@
                                                 <rect key="frame" x="0.0" y="135" width="353" height="127"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yfd-1n-Ebl" userLabel="StartingSV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="59.666666666666664"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="37"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:-" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMW-t9-she">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="59.666666666666664"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="37"/>
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your Starting address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2h-iq-mR8">
-                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="59.666666666666664"/>
+                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="37"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vtD-d2-jEh" userLabel="DestinationSV">
-                                                        <rect key="frame" x="0.0" y="67.666666666666629" width="353" height="59.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="45" width="353" height="37"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destination:-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCB-N5-Lhx">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="59.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="37"/>
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your destination address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bhc-26-skI">
-                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="59.333333333333336"/>
+                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="37"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPU-zC-lME">
+                                                        <rect key="frame" x="0.0" y="90" width="353" height="37"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="next" subtitle=""/>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="cbB-po-tI3" firstAttribute="height" secondItem="BKN-M3-erf" secondAttribute="height" multiplier="0.6" id="BLK-PJ-QJg"/>
-                                    <constraint firstItem="EdP-Ij-pSa" firstAttribute="width" secondItem="BKN-M3-erf" secondAttribute="width" multiplier="0.2" id="QT7-MF-Qmw"/>
-                                    <constraint firstItem="dwx-Nh-1az" firstAttribute="height" secondItem="BKN-M3-erf" secondAttribute="height" multiplier="0.2" id="Tdc-X8-09L"/>
-                                    <constraint firstItem="EdP-Ij-pSa" firstAttribute="height" secondItem="BKN-M3-erf" secondAttribute="height" multiplier="0.2" id="eET-xT-lat"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ChC-fl-zvk"/>
@@ -344,10 +343,28 @@
                             <constraint firstItem="BKN-M3-erf" firstAttribute="leading" secondItem="ChC-fl-zvk" secondAttribute="leading" constant="20" id="leM-LS-9pN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="J0l-YF-YgC" kind="showDetail" identifier="" id="XfP-N3-iXG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jy5-zV-Tts" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1176.3358778625955" y="-250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j2C-cU-bhk">
+            <objects>
+                <viewController id="J0l-YF-YgC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ZP-jZ-db4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jRS-FP-lap"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BzT-sq-jRB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1906" y="-39"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CHj-fC-Jf5">
