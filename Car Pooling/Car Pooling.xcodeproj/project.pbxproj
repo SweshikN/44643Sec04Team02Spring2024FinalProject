@@ -16,6 +16,8 @@
 		20B24D6E2B87E82D003BB793 /* Car_PoolingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D6D2B87E82D003BB793 /* Car_PoolingTests.swift */; };
 		20B24D782B87E82D003BB793 /* Car_PoolingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D772B87E82D003BB793 /* Car_PoolingUITests.swift */; };
 		20B24D7A2B87E82D003BB793 /* Car_PoolingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D792B87E82D003BB793 /* Car_PoolingUITestsLaunchTests.swift */; };
+		D341F3C32BB6A31000DA1E67 /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341F3C22BB6A31000DA1E67 /* LoginPageVC.swift */; };
+		D341F3C52BB6A36700DA1E67 /* SignupPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		20B24D732B87E82D003BB793 /* Car PoolingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car PoolingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B24D772B87E82D003BB793 /* Car_PoolingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_PoolingUITests.swift; sourceTree = "<group>"; };
 		20B24D792B87E82D003BB793 /* Car_PoolingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_PoolingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D341F3C22BB6A31000DA1E67 /* LoginPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginPageVC.swift; path = ../../LoginPageVC.swift; sourceTree = "<group>"; };
+		D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				20B24D582B87E82C003BB793 /* SceneDelegate.swift */,
 				20B24D5A2B87E82C003BB793 /* ViewController.swift */,
 				20B24D5C2B87E82C003BB793 /* Main.storyboard */,
+				D341F3C22BB6A31000DA1E67 /* LoginPageVC.swift */,
+				D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */,
 				20B24D5F2B87E82D003BB793 /* Assets.xcassets */,
 				20B24D612B87E82D003BB793 /* LaunchScreen.storyboard */,
 				20B24D642B87E82D003BB793 /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D341F3C52BB6A36700DA1E67 /* SignupPageVC.swift in Sources */,
 				20B24D5B2B87E82C003BB793 /* ViewController.swift in Sources */,
 				20B24D572B87E82C003BB793 /* AppDelegate.swift in Sources */,
 				20B24D592B87E82C003BB793 /* SceneDelegate.swift in Sources */,
+				D341F3C32BB6A31000DA1E67 /* LoginPageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

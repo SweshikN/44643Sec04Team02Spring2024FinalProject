@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "Select Date"; ObjectID = "A9e-QS-AQg"; */
+"A9e-QS-AQg.text" = "Select Date";
+
+/* Class = "UIButton"; configuration.title = "Result"; ObjectID = "AD6-yc-KWI"; */
+"AD6-yc-KWI.configuration.title" = "Result";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AD6-yc-KWI"; */
+"AD6-yc-KWI.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Create"; ObjectID = "AWw-rt-4U8"; */
+"AWw-rt-4U8.configuration.title" = "Create";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AWw-rt-4U8"; */
+"AWw-rt-4U8.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Type your destination address"; ObjectID = "Bhc-26-skI"; */
+"Bhc-26-skI.placeholder" = "Type your destination address";
+
+/* Class = "UITextField"; placeholder = "Enter Your Username"; ObjectID = "Bp3-25-FCO"; */
+"Bp3-25-FCO.placeholder" = "Enter Your Username";
+
+/* Class = "UILabel"; text = "Set Price"; ObjectID = "GMU-2N-Kg6"; */
+"GMU-2N-Kg6.text" = "Set Price";
+
+/* Class = "UILabel"; text = "Set arrival time"; ObjectID = "HmE-mk-S7a"; */
+"HmE-mk-S7a.text" = "Set arrival time";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "IIh-bA-ctq"; */
+"IIh-bA-ctq.text" = "Mobile Number";
+
+/* Class = "UILabel"; text = "PassWord"; ObjectID = "J7I-ze-NBM"; */
+"J7I-ze-NBM.text" = "PassWord";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "KGQ-7u-B9Y"; */
+"KGQ-7u-B9Y.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KGQ-7u-B9Y"; */
+"KGQ-7u-B9Y.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Confirm"; ObjectID = "Kl3-gW-eok"; */
+"Kl3-gW-eok.configuration.title" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Kl3-gW-eok"; */
+"Kl3-gW-eok.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "NgQ-sl-ITm"; */
+"NgQ-sl-ITm.text" = "Mobile Number";
+
+/* Class = "UILabel"; text = "Destination:-"; ObjectID = "OCB-N5-Lhx"; */
+"OCB-N5-Lhx.text" = "Destination:-";
+
+/* Class = "UILabel"; text = "Set Password"; ObjectID = "TNj-xL-NKv"; */
+"TNj-xL-NKv.text" = "Set Password";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "U2h-fz-Qyo"; */
+"U2h-fz-Qyo.text" = "Username";
+
+/* Class = "UILabel"; text = "Enter phone number if any changes"; ObjectID = "UQV-QT-pxd"; */
+"UQV-QT-pxd.text" = "Enter phone number if any changes";
+
+/* Class = "UILabel"; text = "Enter phone number if any change"; ObjectID = "Uch-kh-EZr"; */
+"Uch-kh-EZr.text" = "Enter phone number if any change";
+
+/* Class = "UITextField"; placeholder = "Enter your mobile number"; ObjectID = "WFJ-4j-HLg"; */
+"WFJ-4j-HLg.placeholder" = "Enter your mobile number";
+
+/* Class = "UITextField"; placeholder = "Enter your Mobile Number"; ObjectID = "WQB-tt-uJV"; */
+"WQB-tt-uJV.placeholder" = "Enter your Mobile Number";
+
+/* Class = "UILabel"; text = "Select departure time"; ObjectID = "Wr5-lq-34g"; */
+"Wr5-lq-34g.text" = "Select departure time";
+
+/* Class = "UILabel"; text = "Select number of people"; ObjectID = "am5-GA-UKZ"; */
+"am5-GA-UKZ.text" = "Select number of people";
+
+/* Class = "UITextField"; placeholder = "Enter your Name"; ObjectID = "ar4-24-cco"; */
+"ar4-24-cco.placeholder" = "Enter your Name";
+
+/* Class = "UITextField"; placeholder = "Type your Starting address"; ObjectID = "b2h-iq-mR8"; */
+"b2h-iq-mR8.placeholder" = "Type your Starting address";
+
+/* Class = "UILabel"; text = "Select the route"; ObjectID = "cbB-po-tI3"; */
+"cbB-po-tI3.text" = "Select the route";
+
+/* Class = "UISegmentedControl"; dwx-Nh-1az.segmentTitles[0] = "Give A Ride!!!"; ObjectID = "dwx-Nh-1az"; */
+"dwx-Nh-1az.segmentTitles[0]" = "Give A Ride!!!";
+
+/* Class = "UISegmentedControl"; dwx-Nh-1az.segmentTitles[1] = "Book A Ride!!!"; ObjectID = "dwx-Nh-1az"; */
+"dwx-Nh-1az.segmentTitles[1]" = "Book A Ride!!!";
+
+/* Class = "UITextField"; placeholder = "Please Enter Your Password"; ObjectID = "hHx-EU-J6f"; */
+"hHx-EU-J6f.placeholder" = "Please Enter Your Password";
+
+/* Class = "UILabel"; text = "From:-"; ObjectID = "hMW-t9-she"; */
+"hMW-t9-she.text" = "From:-";
+
+/* Class = "UILabel"; text = "UserName"; ObjectID = "iFG-Wz-fFA"; */
+"iFG-Wz-fFA.text" = "UserName";
+
+/* Class = "UILabel"; text = "Create Your Account"; ObjectID = "mP6-cK-xoM"; */
+"mP6-cK-xoM.text" = "Create Your Account";
+
+/* Class = "UILabel"; text = "Car Pooling™️"; ObjectID = "nas-un-hrS"; */
+"nas-un-hrS.text" = "Car Pooling™️";
+
+/* Class = "UIButton"; configuration.title = "next"; ObjectID = "oPU-zC-lME"; */
+"oPU-zC-lME.configuration.title" = "next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oPU-zC-lME"; */
+"oPU-zC-lME.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Account"; ObjectID = "pgx-SM-4Gy"; */
+"pgx-SM-4Gy.title" = "Account";
+
+/* Class = "UITextField"; placeholder = "Enter the OTP"; ObjectID = "ptE-Lt-tCv"; */
+"ptE-Lt-tCv.placeholder" = "Enter the OTP";
+
+/* Class = "UITextField"; placeholder = "Enter the Password"; ObjectID = "q2f-lH-AZc"; */
+"q2f-lH-AZc.placeholder" = "Enter the Password";
+
+/* Class = "UIViewController"; title = "ride page"; ObjectID = "qeC-uH-sxt"; */
+"qeC-uH-sxt.title" = "ride page";
+
+/* Class = "UILabel"; text = "OTP"; ObjectID = "yAm-m8-UEl"; */
+"yAm-m8-UEl.text" = "OTP";
+
+/* Class = "UIButton"; configuration.title = "SignUP"; ObjectID = "z6G-ee-kUk"; */
+"z6G-ee-kUk.configuration.title" = "SignUP";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "z6G-ee-kUk"; */
+"z6G-ee-kUk.normalTitle" = "Button";
