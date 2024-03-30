@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ztb-DZ-XEt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ztb-DZ-XEt">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -94,7 +94,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="SignUP" cornerStyle="capsule"/>
                                                         <connections>
-                                                            <segue destination="qC6-Xf-qgi" kind="show" id="tul-5j-ozS"/>
+                                                            <segue destination="qC6-Xf-qgi" kind="show" identifier="loginpagetoSignUP" id="a3Q-q6-AYi"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGQ-7u-B9Y" userLabel="Login">
@@ -131,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="854.19847328244271" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--SignupPageVC-->
         <scene sceneID="7uF-zL-xNC">
             <objects>
-                <viewController id="qC6-Xf-qgi" sceneMemberID="viewController">
+                <viewController title="SignupPageVC" id="qC6-Xf-qgi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xO2-p5-YBf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -486,8 +486,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Uii-Nb-LOQ">
-                                <rect key="frame" x="76" y="96" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Uii-Nb-LOQ">
+                                <rect key="frame" x="98.333333333333329" y="96" width="196.33333333333337" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="wnH-l6-ScS"/>
+                                </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xIF-8f-5LS" userLabel="Big Container SV">
                                 <rect key="frame" x="16" y="337" width="261.33333333333331" height="197.33333333333337"/>
@@ -556,7 +559,9 @@
                         <viewLayoutGuide key="safeArea" id="rWY-bb-v4b"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Uii-Nb-LOQ" firstAttribute="top" secondItem="rWY-bb-v4b" secondAttribute="top" constant="96" id="QU3-RP-lhu"/>
                             <constraint firstItem="Uii-Nb-LOQ" firstAttribute="width" secondItem="rtY-oe-IDn" secondAttribute="width" multiplier="0.5" id="n4S-QP-11k"/>
+                            <constraint firstItem="Uii-Nb-LOQ" firstAttribute="centerX" secondItem="rtY-oe-IDn" secondAttribute="centerX" id="vPw-nk-SZt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dCw-OT-knG"/>
@@ -582,18 +587,16 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SCr-bF-yOc"/>
                         <segue destination="BYZ-38-t0r" kind="showDetail" identifier="NavigationtoRegisterpage" id="YKl-Wi-mDG"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JhL-S8-oN4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-72.51908396946564" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="-218" y="227"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="p17-MS-5gX"/>
-        <segue reference="YKl-Wi-mDG"/>
+        <segue reference="LCH-wa-EZd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="logo" width="360" height="360"/>

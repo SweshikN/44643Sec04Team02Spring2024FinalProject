@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208248952BB7B37F00B281FD /* RidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208248942BB7B37F00B281FD /* RidePage.swift */; };
+		208248972BB7B3B300B281FD /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208248962BB7B3B300B281FD /* AccountVC.swift */; };
 		20B24D572B87E82C003BB793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D562B87E82C003BB793 /* AppDelegate.swift */; };
 		20B24D592B87E82C003BB793 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D582B87E82C003BB793 /* SceneDelegate.swift */; };
 		20B24D5B2B87E82C003BB793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D5A2B87E82C003BB793 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		208248942BB7B37F00B281FD /* RidePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePage.swift; sourceTree = "<group>"; };
+		208248962BB7B3B300B281FD /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		20B24D532B87E82C003BB793 /* Car Pooling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Pooling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B24D562B87E82C003BB793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20B24D582B87E82C003BB793 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				20B24D582B87E82C003BB793 /* SceneDelegate.swift */,
 				20B24D5A2B87E82C003BB793 /* ViewController.swift */,
 				20B24D5C2B87E82C003BB793 /* Main.storyboard */,
+				208248962BB7B3B300B281FD /* AccountVC.swift */,
+				208248942BB7B37F00B281FD /* RidePage.swift */,
 				D341F3C22BB6A31000DA1E67 /* LoginPageVC.swift */,
 				D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */,
 				20B24D5F2B87E82D003BB793 /* Assets.xcassets */,
@@ -267,7 +273,9 @@
 				D341F3C52BB6A36700DA1E67 /* SignupPageVC.swift in Sources */,
 				20B24D5B2B87E82C003BB793 /* ViewController.swift in Sources */,
 				20B24D572B87E82C003BB793 /* AppDelegate.swift in Sources */,
+				208248972BB7B3B300B281FD /* AccountVC.swift in Sources */,
 				20B24D592B87E82C003BB793 /* SceneDelegate.swift in Sources */,
+				208248952BB7B37F00B281FD /* RidePage.swift in Sources */,
 				D341F3C32BB6A31000DA1E67 /* LoginPageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
