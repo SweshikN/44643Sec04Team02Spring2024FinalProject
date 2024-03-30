@@ -145,6 +145,11 @@ Sprint 05
 We have created files of view controller AccountVc, SignupVc, LoginVC and designed one screen to set the time select date and to give ride.Also changed buttons colors and given placeholders.
 And we have set contraints for ridePage.
 
+Work Break Down Structure:
+Sweshik Rao Nemarukommula:Added ride booking page for the project.
+Sneha Kancharla:Made the Required design of the UI.
+Kaushik Ram Koteshwar Venna:Added required images and classes to the  project.
+
 
 
 
