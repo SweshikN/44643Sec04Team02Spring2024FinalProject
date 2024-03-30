@@ -141,6 +141,11 @@ Sprint 04
 Added navigation controller and added one more screen and created ui part added one more screen and created UI part also added one more page using segue and creating UI part in it.
 Along with it we created two more pages.
 
+Sprint 05 
+We have created files of view controller AccountVc, SignupVc, LoginVC and designed one screen to set the time select date and to give ride.Also changed buttons colors and given placeholders.
+And we have set contraints for ridePage.
+
+
 
 
 
