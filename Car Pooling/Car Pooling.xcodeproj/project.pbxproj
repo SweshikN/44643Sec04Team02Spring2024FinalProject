@@ -20,6 +20,7 @@
 		20B24D7A2B87E82D003BB793 /* Car_PoolingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D792B87E82D003BB793 /* Car_PoolingUITestsLaunchTests.swift */; };
 		D341F3C32BB6A31000DA1E67 /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341F3C22BB6A31000DA1E67 /* LoginPageVC.swift */; };
 		D341F3C52BB6A36700DA1E67 /* SignupPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */; };
+		DAC429222BB7B8CF0097020B /* RideBookingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC429212BB7B8CF0097020B /* RideBookingPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		20B24D792B87E82D003BB793 /* Car_PoolingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_PoolingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D341F3C22BB6A31000DA1E67 /* LoginPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginPageVC.swift; path = ../../LoginPageVC.swift; sourceTree = "<group>"; };
 		D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPageVC.swift; sourceTree = "<group>"; };
+		DAC429212BB7B8CF0097020B /* RideBookingPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideBookingPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				20B24D582B87E82C003BB793 /* SceneDelegate.swift */,
 				20B24D5A2B87E82C003BB793 /* ViewController.swift */,
 				20B24D5C2B87E82C003BB793 /* Main.storyboard */,
+				DAC429212BB7B8CF0097020B /* RideBookingPageVC.swift */,
 				208248962BB7B3B300B281FD /* AccountVC.swift */,
 				208248942BB7B37F00B281FD /* RidePage.swift */,
 				D341F3C22BB6A31000DA1E67 /* LoginPageVC.swift */,
@@ -275,6 +278,7 @@
 				20B24D572B87E82C003BB793 /* AppDelegate.swift in Sources */,
 				208248972BB7B3B300B281FD /* AccountVC.swift in Sources */,
 				20B24D592B87E82C003BB793 /* SceneDelegate.swift in Sources */,
+				DAC429222BB7B8CF0097020B /* RideBookingPageVC.swift in Sources */,
 				208248952BB7B37F00B281FD /* RidePage.swift in Sources */,
 				D341F3C32BB6A31000DA1E67 /* LoginPageVC.swift in Sources */,
 			);
