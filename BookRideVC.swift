@@ -15,7 +15,8 @@ class BookRideVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet var selectnoofpeopleLBL: UILabel!
+    
     /*
     // MARK: - Navigation
 

@@ -31,6 +31,8 @@ class AccountVC: UIViewController {
     @IBOutlet var signupBTN: UIButton!
     
     @IBAction func signupBTN(_ sender: UIButton) {
+        
+        
     }
     
     @IBOutlet var loginBTN: UIButton!
@@ -38,7 +40,6 @@ class AccountVC: UIViewController {
     @IBAction func loginBTN(_ sender: UIButton) {
         let enteredUsername = nameTF.text ?? ""
             let enteredPassword = passwordTF.text ?? ""
-            
             if enteredUsername == "123" && enteredPassword == "123" {
                 // Perform segue to Ride page
                 performSegue(withIdentifier: "AccountvctoRidepage", sender: self)

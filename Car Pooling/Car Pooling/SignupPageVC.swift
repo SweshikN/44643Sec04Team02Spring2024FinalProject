@@ -11,11 +11,35 @@ class SignupPageVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet var logoIV: UIImageView!
+    
+    @IBOutlet var createaccLBL: UILabel!
+    @IBOutlet var usernameLBL: UILabel!
+    
+    @IBAction func usernameTF(_ sender: UITextField) {
+        
+    }
+    
+    @IBOutlet var mobilenumLBL: UILabel!
+    
+    @IBOutlet var mobilenumTF: UITextField!
+    
+    @IBOutlet var otpLBL: UILabel!
+    
+    @IBOutlet var otpTF: UITextField!
+    
+    @IBOutlet var passwordLBL: UILabel!
+    
+    @IBOutlet var passwordTF: UITextField!
+    
+    @IBAction func createBTN(_ sender: UIButton) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
