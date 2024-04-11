@@ -363,10 +363,10 @@
             </objects>
             <point key="canvasLocation" x="-1176.3358778625955" y="-250"/>
         </scene>
-        <!--View Controller-->
+        <!--Give RideVC-->
         <scene sceneID="j2C-cU-bhk">
             <objects>
-                <viewController id="J0l-YF-YgC" sceneMemberID="viewController">
+                <viewController id="J0l-YF-YgC" customClass="GiveRideVC" customModule="Car_Pooling" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3ZP-jZ-db4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -478,10 +478,10 @@
             </objects>
             <point key="canvasLocation" x="-1906.1068702290077" y="-39.436619718309863"/>
         </scene>
-        <!--View Controller-->
+        <!--Book RideVC-->
         <scene sceneID="Lq5-Wx-MKY">
             <objects>
-                <viewController id="3YH-hL-b21" sceneMemberID="viewController">
+                <viewController id="3YH-hL-b21" customClass="BookRideVC" customModule="Car_Pooling" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rtY-oe-IDn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
