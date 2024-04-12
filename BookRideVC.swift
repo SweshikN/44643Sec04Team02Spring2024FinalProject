@@ -17,6 +17,21 @@ class BookRideVC: UIViewController {
     
     @IBOutlet var selectnoofpeopleLBL: UILabel!
     
+   
+    @IBAction func bookRideSelection(_ sender: UIButton) {
+        guard let numberOfPeopleStr = numberOfPeopleTextField.text,
+                      let time = timeTextField.text,
+                      let date = dateTextField.text,
+                      let mobileNumber = mobileNumberTextField.text,
+                      let numberOfPeople = Int(numberOfPeopleStr) else {
+                    // Display an alert or handle invalid input scenario
+                    print("Invalid input")
+                    return
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

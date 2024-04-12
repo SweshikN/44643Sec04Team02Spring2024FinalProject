@@ -9,13 +9,19 @@ import UIKit
 
 class RidePage: UIViewController {
 
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func rideSelection(_ sender: UISegmentedControl) {
+    }
+    
     /*
     // MARK: - Navigation
 
