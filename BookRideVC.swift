@@ -17,19 +17,35 @@ class BookRideVC: UIViewController {
     
     @IBOutlet var selectnoofpeopleLBL: UILabel!
     
-   
-    @IBAction func bookRideSelection(_ sender: UIButton) {
-        guard let numberOfPeopleStr = numberOfPeopleTextField.text,
-                      let time = timeTextField.text,
-                      let date = dateTextField.text,
-                      let mobileNumber = mobileNumberTextField.text,
-                      let numberOfPeople = Int(numberOfPeopleStr) else {
-                    // Display an alert or handle invalid input scenario
-                    print("Invalid input")
+    @IBOutlet var noofpeopleTF: UITextField!
+    
+    @IBOutlet var departtimeLBL: UILabel!
+    
+    @IBAction func resultBTN(_ sender: UIButton) {
+        guard let numberOfPeople = noofpeopleTF.text,
+                      let departureTime = departtimeTF.text,
+                      let phoneNumber = phnenumTF.text else {
+                    // Handle if any of the fields are empty
                     return
+                }
+                
+                // Assuming you have a function to actually book the ride, passing the necessary information
+                bookRide(numberOfPeople: numberOfPeople, departureTime: departureTime, phoneNumber: phoneNumber)
+                
+        
     }
+    @IBOutlet var phnenumTF: UITextField!
+    @IBOutlet var phnnumLBL: UILabel!
+    @IBOutlet var departtimeTF: UITextField!
     
     
+   
+    func bookRide(numberOfPeople: String, departureTime: String, phoneNumber: String) {
+            // Logic to book the ride goes here
+            print("Booking ride with \(numberOfPeople) people, departing at \(departureTime), and contact number \(phoneNumber)")
+            // You should implement actual booking logic here
+        }
+        
     
     
     /*

@@ -20,9 +20,8 @@ class SignupPageVC: UIViewController {
     @IBOutlet var createaccLBL: UILabel!
     @IBOutlet var usernameLBL: UILabel!
     
-    @IBAction func usernameTF(_ sender: UITextField) {
-        
-    }
+   
+    @IBOutlet var usernameTF: UITextField!
     
     @IBOutlet var mobilenumLBL: UILabel!
     
@@ -37,7 +36,24 @@ class SignupPageVC: UIViewController {
     @IBOutlet var passwordTF: UITextField!
     
     @IBAction func createBTN(_ sender: UIButton) {
+        guard let username = usernameTF.text,
+                     let mobileNumber = mobilenumTF.text,
+                     let otp = otpTF.text,
+                     let password = passwordTF.text else {
+                   
+                   return
+               }
+        
+        signUp(username: username, mobileNumber: mobileNumber, otp: otp, password: password)
+            }
     }
+    
+  private  func signUp(username: String, mobileNumber: String, otp: String, password: String) {
+            // Implement your sign-up logic here
+            print("Signing up with username: \(username), mobile number: \(mobileNumber), OTP: \(otp), password: \(password)")
+            // You should implement actual sign-up logic here
+        }
+
     
     
     /*
@@ -50,4 +66,4 @@ class SignupPageVC: UIViewController {
     }
     */
 
-}
+
