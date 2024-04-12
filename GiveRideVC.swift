@@ -15,9 +15,20 @@ class GiveRideVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func confirmBTN(_ sender: Any) {
+    }
+    @IBAction func phoneNumberTF(_ sender: Any) {
+    }
+    @IBAction func enterTimeTF(_ sender: Any) {
+    }
+    
+    @IBAction func selectDateTF(_ sender: Any) {
+    }
+    
+    @IBAction func enterPriceTF(_ sender: Any) {
+    }
     /*
-    // MARK: - Navigation
+     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
