@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2029C9CB2BCA1A12000D51ED /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029C9CA2BCA1A12000D51ED /* SplashVC.swift */; };
 		208248952BB7B37F00B281FD /* RidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208248942BB7B37F00B281FD /* RidePage.swift */; };
 		208248972BB7B3B300B281FD /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208248962BB7B3B300B281FD /* AccountVC.swift */; };
 		20B24D572B87E82C003BB793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B24D562B87E82C003BB793 /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2029C9CA2BCA1A12000D51ED /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		208248942BB7B37F00B281FD /* RidePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePage.swift; sourceTree = "<group>"; };
 		208248962BB7B3B300B281FD /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		20B24D532B87E82C003BB793 /* Car Pooling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Pooling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 				20B24D582B87E82C003BB793 /* SceneDelegate.swift */,
 				20B24D5A2B87E82C003BB793 /* ViewController.swift */,
 				20B24D5C2B87E82C003BB793 /* Main.storyboard */,
+				2029C9CA2BCA1A12000D51ED /* SplashVC.swift */,
 				D39AEC2B2BC7FB8F001E5879 /* GiveRideVC.swift */,
 				D39AEC2D2BC7FBB4001E5879 /* BookRideVC.swift */,
 				DAC429212BB7B8CF0097020B /* RideBookingPageVC.swift */,
@@ -287,6 +290,7 @@
 				20B24D572B87E82C003BB793 /* AppDelegate.swift in Sources */,
 				208248972BB7B3B300B281FD /* AccountVC.swift in Sources */,
 				20B24D592B87E82C003BB793 /* SceneDelegate.swift in Sources */,
+				2029C9CB2BCA1A12000D51ED /* SplashVC.swift in Sources */,
 				D39AEC2C2BC7FB8F001E5879 /* GiveRideVC.swift in Sources */,
 				DAC429222BB7B8CF0097020B /* RideBookingPageVC.swift in Sources */,
 				D39AEC2E2BC7FBB4001E5879 /* BookRideVC.swift in Sources */,
