@@ -15,7 +15,13 @@ class Login_SignupVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func signupBTN(_ sender: Any) {
+    }
+    @IBAction func LoginBTN(_ sender: Any) {
+    }
+    @IBOutlet weak var EmailTF: UITextField!
+    
+    @IBOutlet weak var passwordTF: UITextField!
     /*
     // MARK: - Navigation
 

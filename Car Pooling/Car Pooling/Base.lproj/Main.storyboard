@@ -849,9 +849,6 @@
                                                                 <real key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
-                                                        <connections>
-                                                            <action selector="onForgotPassword:" destination="lpv-Xk-Y0N" eventType="touchUpInside" id="ylC-oc-tSq"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -880,6 +877,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
+                                                            <action selector="LoginBTN:" destination="lpv-Xk-Y0N" eventType="touchUpInside" id="e0H-DM-TCu"/>
                                                             <action selector="onLogin:" destination="lpv-Xk-Y0N" eventType="touchUpInside" id="dY7-E9-y5r"/>
                                                         </connections>
                                                     </button>
@@ -909,6 +907,9 @@
                                                                 <integer key="value" value="10"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="signupBTN:" destination="lpv-Xk-Y0N" eventType="touchUpInside" id="MaG-wl-bxa"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -957,8 +958,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="KrF-CJ-UC3"/>
                     <connections>
+                        <outlet property="EmailTF" destination="tya-7z-ReT" id="dWt-GP-eor"/>
                         <outlet property="email" destination="tya-7z-ReT" id="bhu-Ev-F5o"/>
                         <outlet property="password" destination="3w6-I3-hX6" id="abt-Pj-bEc"/>
+                        <outlet property="passwordTF" destination="3w6-I3-hX6" id="ZDp-2o-eZV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LN0-Bf-feZ" sceneMemberID="firstResponder"/>
