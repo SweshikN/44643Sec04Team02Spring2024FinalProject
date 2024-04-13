@@ -304,17 +304,17 @@
             <objects>
                 <viewController title="ride page" id="qeC-uH-sxt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pfW-dc-4NE">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BKN-M3-erf" userLabel="BigContainerSV">
-                                <rect key="frame" x="20" y="10" width="353" height="822"/>
+                                <rect key="frame" x="20" y="113" width="353" height="1096"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="EdP-Ij-pSa">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="268.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="360"/>
                                     </imageView>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dwx-Nh-1az" userLabel="Ride">
-                                        <rect key="frame" x="0.0" y="276.66666666666663" width="353" height="269.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="368" width="353" height="361"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="268.66666666666663" id="7wJ-o4-I6Q"/>
                                         </constraints>
@@ -329,51 +329,51 @@
                                         </connections>
                                     </segmentedControl>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZFP-Ej-2HR">
-                                        <rect key="frame" x="0.0" y="553.33333333333337" width="353" height="268.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="736" width="353" height="360"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the route" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbB-po-tI3">
-                                                <rect key="frame" x="0.0" y="0.0" width="353" height="130.33333333333334"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="353" height="176"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zPJ-Cc-EnV" userLabel="AddressSV">
-                                                <rect key="frame" x="0.0" y="138.33333333333326" width="353" height="130.33333333333337"/>
+                                                <rect key="frame" x="0.0" y="184" width="353" height="176"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yfd-1n-Ebl" userLabel="StartingSV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="38"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="53.333333333333336"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:-" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMW-t9-she">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="38"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="53.333333333333336"/>
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your Starting address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2h-iq-mR8">
-                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="38"/>
+                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="53.333333333333336"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vtD-d2-jEh" userLabel="DestinationSV">
-                                                        <rect key="frame" x="0.0" y="46" width="353" height="38.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="61.333333333333258" width="353" height="53.333333333333343"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destination:-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCB-N5-Lhx">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="38.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="53.333333333333336"/>
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your destination address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bhc-26-skI">
-                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="38.333333333333336"/>
+                                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="53.333333333333336"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPU-zC-lME">
-                                                        <rect key="frame" x="0.0" y="92.333333333333371" width="353" height="38"/>
+                                                        <rect key="frame" x="0.0" y="122.66666666666673" width="353" height="53.333333333333329"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="next" subtitle=""/>
                                                     </button>
@@ -537,7 +537,7 @@
             <objects>
                 <viewController id="3YH-hL-b21" customClass="BookRideVC" customModule="Car_Pooling" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rtY-oe-IDn">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xIF-8f-5LS" userLabel="Big Container SV">
@@ -744,7 +744,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="G0K-dS-7ug">
                                         <rect key="frame" x="16" y="8" width="361" height="415"/>
                                         <subviews>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tjt-49-cJq" customClass="DesignableView" customModule="Carpooling" customModuleProvider="target">
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tjt-49-cJq" customClass="DesignableView" customModule="Car_Pooling" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="361" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tya-7z-ReT">
@@ -792,7 +792,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwG-C2-1tm" customClass="DesignableView" customModule="Carpooling" customModuleProvider="target">
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwG-C2-1tm" customClass="DesignableView" customModule="Car_Pooling" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="66" width="361" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3w6-I3-hX6">
@@ -834,7 +834,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5XR-lS-OgE">
                                                 <rect key="frame" x="0.0" y="132" width="361" height="45"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8j-3b-Bs8" customClass="ButtonLayerSetup" customModule="Carpooling" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8j-3b-Bs8" customClass="ButtonLayerSetup" customModule="Car_Pooling" customModuleProvider="target">
                                                         <rect key="frame" x="225" y="-5" width="136" height="45"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -967,7 +967,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="p17-MS-5gX"/>
+        <segue reference="Rdm-h2-d9Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="creaet" width="182.66667175292969" height="151.66667175292969"/>
