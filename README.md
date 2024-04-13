@@ -152,6 +152,16 @@ Kaushik Ram Koteshwar Venna:Added required images and classes to the  project.
 
 
 
+Sprint 06 
+We've begun implementing the logical part of our application.  we've created a SplashViewController, which serves as the initial page users see when they open the app. Additionally, we've created two more view controllers using CocoaTouch classes. We've added the necessary functionalities to these classes and established the required connections to the GiveRide page and BookRide page. 
+
+
+work Breakdown Structure:
+Swewshik Rao: added required connections for GiveRide Page,
+Kaushik Ram Koteshwar Venna: Added 2 new cocotouch classes and connected them to view controllers .Added functionality to the bookrideVC, made some changes in ui design and added action to the ride page.
+Sneha Kancharla: implemented basic logic in signup page and bookride page and created SplashVC page and cocotouch class to it and given outlet connections.Also implemented logic in login page.
+
+
 
 
 
