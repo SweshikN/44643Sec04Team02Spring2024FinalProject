@@ -23,6 +23,7 @@
 		D341F3C52BB6A36700DA1E67 /* SignupPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */; };
 		D39AEC2C2BC7FB8F001E5879 /* GiveRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39AEC2B2BC7FB8F001E5879 /* GiveRideVC.swift */; };
 		D39AEC2E2BC7FBB4001E5879 /* BookRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39AEC2D2BC7FBB4001E5879 /* BookRideVC.swift */; };
+		DAA3FF142BCA26A000A5EC6F /* Login SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3FF132BCA26A000A5EC6F /* Login SignupVC.swift */; };
 		DAC429222BB7B8CF0097020B /* RideBookingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC429212BB7B8CF0097020B /* RideBookingPageVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		D341F3C42BB6A36700DA1E67 /* SignupPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPageVC.swift; sourceTree = "<group>"; };
 		D39AEC2B2BC7FB8F001E5879 /* GiveRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GiveRideVC.swift; path = ../../GiveRideVC.swift; sourceTree = "<group>"; };
 		D39AEC2D2BC7FBB4001E5879 /* BookRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookRideVC.swift; path = ../../BookRideVC.swift; sourceTree = "<group>"; };
+		DAA3FF132BCA26A000A5EC6F /* Login SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login SignupVC.swift"; sourceTree = "<group>"; };
 		DAC429212BB7B8CF0097020B /* RideBookingPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideBookingPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 				20B24D582B87E82C003BB793 /* SceneDelegate.swift */,
 				20B24D5A2B87E82C003BB793 /* ViewController.swift */,
 				20B24D5C2B87E82C003BB793 /* Main.storyboard */,
+				DAA3FF132BCA26A000A5EC6F /* Login SignupVC.swift */,
 				2029C9CA2BCA1A12000D51ED /* SplashVC.swift */,
 				D39AEC2B2BC7FB8F001E5879 /* GiveRideVC.swift */,
 				D39AEC2D2BC7FBB4001E5879 /* BookRideVC.swift */,
@@ -292,6 +295,7 @@
 				20B24D592B87E82C003BB793 /* SceneDelegate.swift in Sources */,
 				2029C9CB2BCA1A12000D51ED /* SplashVC.swift in Sources */,
 				D39AEC2C2BC7FB8F001E5879 /* GiveRideVC.swift in Sources */,
+				DAA3FF142BCA26A000A5EC6F /* Login SignupVC.swift in Sources */,
 				DAC429222BB7B8CF0097020B /* RideBookingPageVC.swift in Sources */,
 				D39AEC2E2BC7FBB4001E5879 /* BookRideVC.swift in Sources */,
 				208248952BB7B37F00B281FD /* RidePage.swift in Sources */,
